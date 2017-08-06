@@ -1,0 +1,93 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ color:white;
+}
+
+body {
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.875em;
+}
+
+p ul li {
+    font-size: 0.875em;
+  }
+
+  ul li {
+      /*from:  https://stackoverflow.com/questions/11556493/
+          2nd-line-in-li-start-under-the-bullet-after-css-reset
+       * We want the bullets outside of the list,
+       * so the text is aligned. Now the actual bullet
+       * is outside of the list’s container
+       */
+      list-style-position: outside;
+
+      /*
+       * Because the bullet is outside of the list’s
+       * container, indent the list entirely
+
+       */
+      margin-left: 1em;
+  }
+
+ul > li {
+    margin-left: 10px;
+}
+
+div{
+  margin:8px;
+  text-align: justify;
+  border:1px;
+  border-radius: 15px;
+  padding:15px;
+}
+
+#wrapper{
+  background-color:#42b6f4;
+  width:970px;
+  padding:10px;
+  border-radius: 0px;
+}
+
+#header{
+  background-color: red;
+  display:block;
+}
+
+#body{
+  width:970px;
+}
+
+#main{
+
+  background-color: #aabac1;
+  width:700px;
+  display:inline-block;
+  vertical-align: top;
+  
+}
+
+#nav{
+  background-color: green;
+  width:150px;
+  display:inline-block;
+  vertical-align: top;
+  margin-left: 0px;
+
+
+}
+
+#footer{
+  background-color: #666d70;
+  display:block;
+  padding:10px;
+  vertical-align: bottom;
+}
