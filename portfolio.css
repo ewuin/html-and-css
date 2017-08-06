@@ -1,0 +1,65 @@
+/*CSS reset*/
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+#wrapper{
+  width:970px;
+  background-color: #9f89af;
+}
+
+#photo{
+  display: inline-block;
+  vertical-align: top;
+  width:440px;
+  border:5px solid grey;
+  background-color: white;
+  padding:0;
+}
+
+#my_photo{
+    width:440px;
+}
+
+#about{
+  display:inline-block;
+  vertical-align: top;
+  width:440px;
+  background-color: grey;
+}
+
+.col_title{
+  color:white;
+  background-color: #b6b5b7;
+  display:block;
+  padding:10px;
+
+}
+
+.column {
+  display:inline-block;
+  vertical-align: top;
+  background-color: #e2deed;
+  width:300px;
+  padding:0px;
+  margin:5px;
+
+}
+
+.content{
+  color:white;
+  padding:5px;
+  display:block;
+}
+
+.col_photo_box{
+  padding:0px;
+  display:block;
+}
+
+.col_photo{
+  height:100px;
+  width:300px;
+}
