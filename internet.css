@@ -1,0 +1,215 @@
+/*CSS reset*/
+
+*{
+padding:0px;
+margin: 0px;
+}
+
+p,a,ul,li,h1,h2,h3,h4,h5,h6 {
+  font-family: arial, sans-serif;
+}
+
+body {font-size: 18px;}
+h1 {font-size: 2.5em;
+display: inline-block;;}
+h2 {
+  font-size: 2.0em;
+  color:white;
+  padding: 5px;
+}
+h3 {
+  font-size: 1.2em;
+  color:#42b9ff;
+ }
+h4 {font-size: 1.1em;}
+h5{
+  display: inline-block;
+}
+#wrapper{
+  width:970px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f7f8f9;
+}
+
+
+
+h2{
+  height: 50px;
+  background: -webkit-linear-gradient(#42b9ff,#5282ce,#42b9ff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#42b9ff,#5282ce,#42b9ff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#42b9ff,#5282ce,#42b9ff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#42b9ff,#5282ce,#42b9ff); /* Standard syntax (must be last) */;
+  background-color: #2a75ed;
+
+}
+
+.emph{
+  color: #42b9ff;
+  font-weight: bold;
+}
+
+#watch_video{
+  margin: 8px;
+  padding: 5px;
+  display: block;
+  width: 150px;
+  border-radius: 20px;
+  background: #2a75ed;
+  color:white;
+  box-shadow: 5px 5px 5px grey;
+  text-align: center;
+}
+
+#more_resources{
+  margin:8px;
+  padding:5px;
+  width: 150px;
+  display: block;
+  border-radius: 20px;
+  background: orange;
+  color:white;
+  box-shadow: 5px 5px 5px grey;
+  text-align: center;
+}
+
+#sidebar{
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#lower_sidebar{
+
+  margin: 8px 8px 8px 0px;
+  background: url('./internet_images/ad_background.png');
+  height:299px;
+  width: 205px;
+  color: white;
+  text-align: center;
+}
+
+#ad{
+  margin-top: 15px;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#learn_more{
+  margin:auto;
+  margin-top: 10px;
+  padding:5px;
+  width: 150px;
+  display: block;
+  border-radius: 20px;
+  color:white;
+  background: #42b9ff;
+  text-align: center;
+}
+
+#main{
+  width: 700px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+#main_upper{
+  margin: 5px;
+  padding: 5px;
+}
+
+#main_upper_left{
+  display: inline-block;
+  width:250px;
+  vertical-align: top;
+
+}
+
+#main_upper_right{
+  display: inline-block;
+  width:400px;
+  vertical-align: top;
+  position: relative;
+  left: 130px;
+}
+
+#contact{
+  display: inline-block;
+}
+
+
+#main_lower{
+  width: 700px;
+  margin: 15px 0px 10px 0px;
+}
+
+#main_lower_right{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  width: 535px;
+}
+
+ul li {
+    list-style-position: outside;
+    margin-left: 1.5em;
+}
+
+ol li{
+
+  list-style-position: outside;
+  margin-left: 2em;
+}
+
+hr{
+  height: 1px;
+  border-radius: 10px;
+}
+
+#globe_logo{
+  width:75px;
+  height: 75px;
+  display: inline-block;
+  position: relative;
+  top:15px;
+}
+
+#ninja{
+  height: 100px;
+  width: auto;
+  display: block;
+  margin: auto;
+  padding: 8px;
+}
+
+#phone{
+  width:60px;
+  height: auto;
+  display: inline-block;
+}
+
+#home{
+  width: 15px;
+  height: auto;
+  display: inline-block;
+}
+
+#data_flow{
+  height: 100px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+#html{
+  width: 150px;
+  height: auto;
+  display: inline-block;
+}
